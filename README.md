@@ -121,9 +121,7 @@ The following results were obtained on the held-out test set:
 - **ROC-AUC:** 0.8195
 
 An **accuracy** of **74.44%** means that the model correctly classified about three out of every four individuals in the test set.
-
 This is a solid result for a real-world medical dataset containing behavioral and health survey information, especially because the prediction is based on indirect health indicators rather than laboratory measurements alone.
-
 However, accuracy should not be the only focus in a medical setting.
 
 A **precision** of **73.70%** means that when the model predicts that a person has diabetes-related risk, about 74 out of 100 of those predictions are correct.
