@@ -64,7 +64,6 @@ These variables are clinically meaningful because diabetes risk is often associa
 
 ## 6. Data Preparation
 
----
 ### 6.1 Target Variable Transformation
 Since the primary objective of the research is detecting the presence of diabetes, the problem was reformulated as a binary classification task. Therefore, the classes Prediabetes(1) and Diabetes(2) were merged into a single class representing individuals with diabetes-related conditions.
 After the transformation, the class distribution became 39,977 diabetes and 213,703 no diabetes.
@@ -89,7 +88,6 @@ A **stratified split** was used to ensures class distribution remains consistent
 ### 6.4 Feature Scaling
 Numeric features were standardized using **StandardScaler**.
  The is especially important for **Logistic Regression** due to the model sensitive to the scale of input variables.
----
 
 ## 7. Model Development
 
