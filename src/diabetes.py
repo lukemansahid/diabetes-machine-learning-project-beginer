@@ -141,7 +141,7 @@ cm = confusion_matrix(y_test, y_pred)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm)
 disp.plot()
 plt.title("Confusion Matrix")
-plt.savefig("results/confusion_matrix.png")
+plt.savefig("../results/confusion_matrix.png")
 plt.show()
 
 print("Project completed.")
